@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<stmt_rules>
+	
+	
+	<stmt_rule>
+		<signature>public void render\(generator</signature>
+		<add_param_in>replace_as_is</add_param_in>
+		<param_name>public void render(WbdGenerator generator</param_name>
+	</stmt_rule>
+	
+	<stmt_rule>
+		<signature>instance.findPrimitiveWidget\(\)</signature>
+		<add_param_in>replace_as_is</add_param_in>
+		<param_name>instance.findPrimitiveWidget(generator)</param_name>
+	</stmt_rule>
+	
+	
+	<stmt_rule>
+		<signature>private void loadWidgetConfig</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>WbdGenerator generator</param_name>
+	</stmt_rule>
+	
+	<stmt_rule>
+		<signature>private void loadConfig</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>WbdGenerator generator</param_name>
+	</stmt_rule>
+	
+	
+	<stmt_rule>
+		<signature>private void updateConfigForRender</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>WbdGenerator generator</param_name>
+	</stmt_rule>
+	
+	
+	<stmt_rule>
+		<signature>private void renderWidget\(generator</signature>
+		<add_param_in>replace_as_is</add_param_in>
+		<param_name>private void renderWidget(WbdGenerator generator</param_name>
+	</stmt_rule>
+	
+	<stmt_rule>
+		<signature>loadWidgetConfig</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>generator</param_name>
+	</stmt_rule>
+	<stmt_rule>
+		<signature>updateConfigForRender</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>generator</param_name>
+	</stmt_rule>
+	
+</stmt_rules>
+

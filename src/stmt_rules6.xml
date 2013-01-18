@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<stmt_rules>
+	<stmt_rule>
+		<signature>frmHelper.getSeparatorFrame</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>generator</param_name>
+	</stmt_rule>
+	<stmt_rule>
+		<signature>frmHelper.getContentLeftFrame</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>generator</param_name>
+	</stmt_rule>
+	<stmt_rule>
+		<signature>frmHelper.getContentMidStartFrame</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>generator</param_name>
+	</stmt_rule>
+	<stmt_rule>
+		<signature>frmHelper.getBottomFrame</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>generator</param_name>
+	</stmt_rule>
+	<stmt_rule>
+		<signature>frmHelper.getContentRightFrame</signature>
+		<add_param_in>start</add_param_in>
+		<param_name>generator</param_name>
+	</stmt_rule>
+	
+</stmt_rules>
+

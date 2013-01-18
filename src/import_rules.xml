@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- import stmt -->
+<stmt_rules>
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import tooltwist.wbd.WbdGenerator;</import_name>
+		<apply_to_files_with>[\\s]+WbdGenerator[\\s]+</apply_to_files_with>
+	</stmt_rule>	
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import tooltwist.ecommerce.AutomaticUrlParametersMode;</import_name>
+		<apply_to_files_with>AutomaticUrlParametersMode</apply_to_files_with>
+	</stmt_rule>	
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import tooltwist.wbd.Snippet.SnippetLocation;</import_name>
+		<apply_to_files_with>SnippetLocation</apply_to_files_with>
+	</stmt_rule>
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import tooltwist.wbd.JavascriptCodeInserter;</import_name>
+		<apply_to_files_with>JavascriptCodeInserter</apply_to_files_with>
+	</stmt_rule>
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import tooltwist.repository.TProject;</import_name>
+		<apply_to_files_with>TProject</apply_to_files_with>
+	</stmt_rule>
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import tooltwist.repository.ToolTwist;</import_name>
+		<apply_to_files_with>ToolTwist</apply_to_files_with>
+	</stmt_rule>
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import tooltwist.repository.TWebapp;</import_name>
+		<apply_to_files_with>TWebapp</apply_to_files_with>
+	</stmt_rule>
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import com.ecost.utils.JsInsertAdapter;</import_name>
+		<apply_to_files_with>JsInsertAdapter\.getInserter</apply_to_files_with>
+	</stmt_rule>
+	<stmt_rule>
+		<filter>*</filter>
+		<import_name>import com.ecost.utils.CssInsertAdapter;</import_name>
+		<apply_to_files_with>CssInsertAdapter\.getInserter</apply_to_files_with>
+	</stmt_rule>
+	
+</stmt_rules>
